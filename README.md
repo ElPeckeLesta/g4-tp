@@ -17,3 +17,40 @@ return(
   );
 };
 export default Footer;
+
+import React, { useState } from 'react';
+import axios from 'axios';
+
+const Form = () => {
+  const [text, setText] = useState('');
+  const [img, setImg] = useState('');
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const data = { text: text };
+    axios.post('/question/preguntas', data)
+      .then(res => {
+        console.log(res.data);
+        setText('');
+      });
+  };
+
+  const handleChange = e => {
+    setText(e.target.value);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+        onChange={handleChange}
+        value={text}
+        name="text"
+        type="text"
+        placeholder="Tu Mensaje"
+      />
+    <input className="btn-submit" type="submit" value="Enviar" />
+    </form>
+  );
+}
+
+export default Form;
