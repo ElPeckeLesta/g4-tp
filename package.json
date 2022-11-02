@@ -23,5 +23,13 @@
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
-  "description": ""
+  "description": "import React from 'react';",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByronEsteban/g4tp-practica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ByronEsteban/g4tp-practica/issues"
+  },
+  "homepage": "https://github.com/ByronEsteban/g4tp-practica#readme"
 }

@@ -1,9 +1,11 @@
-import Form from './Form';
+import Form from './Form.js';
+import Header from './Header.js';
 
 const App = () => {
   return (
     <div className="App">
-    <div>HOla</div>
+
+    <Header />
     <Form />
     </div>
   );
