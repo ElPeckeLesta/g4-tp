@@ -1,4 +1,4 @@
-import Form from './Form.js';
+import Form2 from './Form2.js';
 import Header from './Header.js';
 import Footer from './footer.js'
 
@@ -7,7 +7,7 @@ const App = () => {
     <div className="App">
 
     <Header />
-    <Form />
+    <Form2 />
     <Footer />
     </div>
   );

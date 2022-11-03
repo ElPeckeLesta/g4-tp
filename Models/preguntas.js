@@ -1,17 +1,16 @@
 import mongoose from 'mongoose';
 import express from 'express';
 
-const Schema = mongoose.Schema;
-
-const answerSchema = new Schema({
-  text: String,
-  correct: Boolean
+const answerSchema = new mongoose.Schema({
+  answer1: {text: String, correct: Boolean},
+  answer2: {text: String, correct: Boolean},
+  answer3: {text: String, correct: Boolean},
+  answer4: {text: String, correct: Boolean}
 }, {_id: false});
 
-const questionSchema = new Schema({
+const questionSchema = new mongoose.Schema({
   text: String,
-  img: String,
-  answer: [answerSchema]
+  answers: [answerSchema]
 });
 
 const Question = mongoose.model('Question', questionSchema);
