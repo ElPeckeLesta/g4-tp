@@ -1,4 +1,4 @@
-import Question from '../Models/preguntas.js';
+import Question from '../Models/Preguntas.js';
 
 const getAllQuestions = (req, res) => {
   Question.find((err, Questions) => {
@@ -37,6 +37,13 @@ const deleteQuestion = (req, res) => {
   Question.findByIdAndDelete(req.params.id, err => {
     const msg = {text: "Se borró todo OK"}
     res.status(200).json(msg);
+  });
+}
+
+const getQuestionsByIdRandom = (req , res) => {
+  const r = "runmama";
+  Question.findById(req.params.id, (err, Questions) => {
+    res.status(200).json(Questions);
   });
 }
 
