@@ -12,5 +12,4 @@ router.route('/question/:id')
   .put(Controller.updateQuestion)
   .delete(Controller.deleteQuestion);
 
-
 export default router;
