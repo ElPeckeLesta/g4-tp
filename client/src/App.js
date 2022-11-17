@@ -1,13 +1,14 @@
 import Form from './Form.js';
 import Play from './Play.js';
-
+import Header from './Header.js';
+import Footer from './Footer.js';
 const App = () => {
   return (
     <div className="App">
-    <div className="title">--Cuestionario La15--</div>
-    <br />
+    <Header />
     <Form />
     <Play />
+    <Footer />
     </div>
   );
 }
