@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { useState } from 'react';
-import Array from './Arrays.js';
 
 const Form = props => {
 
