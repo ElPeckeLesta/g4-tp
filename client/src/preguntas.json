@@ -1080,69 +1080,69 @@
           ]
         },
             {
-              "text": "¿Como se llama la hermana de Oliver Queen?",
-              "tema": "DC",
+              "text": "¿Cómo se le llama al villano de la temporada 3?",
+              "tema": "Stranger Things",
               "answers": [
                 {
-                  "text": "Thea Queen",
+                  "text": "El Azotamentes",
                   "correct": true
                 },
                 {
-                  "text": "Moira Queen",
+                  "text": "Vecna",
                   "correct": false
                 },
                 {
-                  "text": "Laurel Queen",
+                  "text": "Sombra",
                   "correct": false
                 },
                 {
-                  "text": "Sara Queen",
+                  "text": "El Desuellamentes",
                   "correct": false
                 }
               ]
             },
 
             {
-              "text": "¿De que raza es la Mujer Maravilla?",
-              "tema": "DC",
+              "text": "¿Cómo se llama la hija de Hopper?",
+              "tema": "Stranger  Things",
               "answers": [
                 {
-                  "text": "Atlatianos",
+                  "text": "Holly",
                   "correct": false
                 },
                 {
-                  "text": "Amazonas",
+                  "text": "Sarah",
                   "correct": true
                 },
                 {
-                  "text": "Azgardianas",
+                  "text": "Anna",
                   "correct": false
                 },
                 {
-                  "text": "Astecas",
+                  "text": "Melisa",
                   "correct": false
                 }
               ]
             },
 
             {
-              "text": "¿Qué superpoder tiene Superman que no tiene Superboy?",
-              "tema": "DC",
+              "text": "¿De qué país era Alexei?",
+              "tema": "Stranger Things",
               "answers": [
                 {
-                  "text": "Fuerza sobre humana",
+                  "text": "Alemania",
                   "correct": false
                 },
                 {
-                  "text": "Poder volar",
+                  "text": "Rusia",
                   "correct": true
                 },
                 {
-                  "text": "Rayos X",
+                  "text": "EEUU",
                   "correct": false
                 },
                 {
-                  "text": "Velocidad",
+                  "text": "Reino Unido",
                   "correct": false
                 }
               ]
